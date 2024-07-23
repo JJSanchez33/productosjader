@@ -1,0 +1,56 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *::before *, *::before{
+    box-sizing: inherit;
+}
+body{
+    font-size: 16px;
+    background-color: var(--Cream);
+    
+}
+a,p{
+    
+    font-size: 1.4rem;
+    margin: 1rem;
+    color: var(--Darkgrayishblue);
+}
+:root{
+    --Darkcyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Verydarkblue: hsl(212, 21%, 14%);
+    --Darkgrayishblue: hsl(228, 12%, 48%);
+    ---White: hsl(0, 0%, 100%);
+    --fuentePrincipal:"Montserrat";
+    --segundaFuente:"Fraunces";
+}
+
+
+@media (min-width:768px ) {
+    .container{
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+   
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
