@@ -15,10 +15,10 @@
         
         <header class="header__img">
          
-          <picture>
+          <picture class="picture__img">
             <source media="(min-width:768px )" srcset="/images/image-product-desktop.jpg">
-         <source media="(min-width:375px )" srcset="/images/image-product-mobile.jpg">
-         <img src="images/image-product-desktop.jpg" alt="">
+         <source media="(max-width:448px )" srcset="/images/image-product-mobile.jpg">
+            <img class="header__img" src="images/image-product-desktop.jpg" alt="">
             
           </picture>
           
@@ -28,20 +28,22 @@
            
         
           <article class="articulos">
-            <h1>Perfume</h1>
-            <h2>Gabrielle Essence Eau De Parfum</h2>
-            <p> A floral, solar and voluptuous</p> 
-            <p>interpretation composed by</p> <p>Olivier Polge, 
-              Perfumer-Creator</p> 
-              <p>for the House of CHANEL.</p>
+            <div class="container__article">
+           <h1 class="article__titulo">Perfume</h1>
+            <h2 class="article__titulo2">Gabrielle Essence Eau De Parfum</h2>
+            <p class="article__parrafos"> A floral, solar and voluptuous</p> 
+            <p class="article__parrafos">interpretation composed by</p> 
+            <p class="article__parrafos">Olivier Polge, Perfumer-Creator</p> 
+              <p class="article__parrafos">for the House of CHANEL.</p>
               <div class="valor__parrafo">
                 <p class="parrafo_big">$149.99</p>
                 <p class="parrafo__small"> $169.99</p>
               </div>
               <div class="contenedor__btn">
                 
-                <a href="#"><img src="images/shopping_cart_16dp_000_FILL0_wght100_GRAD-25_opsz20.png" alt="">Add to Cart</a> 
+                <a class="btn__ancla" href="#"><img class="img__ancla" src="images/icon-cart.svg" alt="">Add to Cart</a> 
               </div> 
+            </div>
             </article>
             </div>
        
